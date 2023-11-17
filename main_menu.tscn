@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://ch80ll0f8oq8k"]
+
+[node name="MainMenu" type="Node2D"]
+position = Vector2(8, 0)
+
+[node name="New Game-Button" type="Button" parent="."]
+offset_top = 8.0
+offset_right = 256.0
+offset_bottom = 72.0
+keep_pressed_outside = true
+text = "New Game"
+text_overrun_behavior = 3
+metadata/_edit_use_anchors_ = true
+
+[node name="Quit-Button" type="Button" parent="."]
+offset_top = 152.0
+offset_right = 256.0
+offset_bottom = 216.0
+keep_pressed_outside = true
+text = "Quit"
+text_overrun_behavior = 3
+metadata/_edit_use_anchors_ = true
+
+[node name="Credits-Button" type="Button" parent="."]
+offset_top = 80.0
+offset_right = 256.0
+offset_bottom = 144.0
+keep_pressed_outside = true
+text = "Credits"
+text_overrun_behavior = 3
+metadata/_edit_use_anchors_ = true
